@@ -1,0 +1,13 @@
+    Considerando os conteúdos de ED1, atribua uma nota (de 0 a 10) sobre o seu conhecimento de cada tópico abaixo e cite, e justifique com base nos conceitos-chave que você se lembra de: 
+
+        Ponteiros e alocação dinâmica
+
+        Listas estáticas/encadeadas/duplamente encadeadas.
+
+        Algoritmos de ordenação (selection/quick/merge/lineares).
+
+        Análise assintótica e complexidade.
+
+    O que são tabelas Hash e como elas se relacionam com os conceitos de listas e vetores? Quais as vantagens e desvantagens das tabelas Hash em relação a listas e vetores? 
+
+    Utilizando a noção de Hash, preencha os comentários do código disponibilizado em scanuto.com/hash1.c para 5 alunos cujas matrículas se iniciam em 5538 e terminam em 5542. Não crie nenhum vetor ou estrutura adicional para armazenar matrículas e notas.
