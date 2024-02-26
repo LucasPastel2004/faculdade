@@ -1,0 +1,8 @@
+Vocês podem usar qualquer IDE, contanto que haja suporte para debugging.  Na disciplina irei dar exemplos em PhP e Python. 
+
+Recomendo as IDEs da Jetbrains.  Vocês podem baixar e ativar a versão completa, pois o IFG possui acordo acadêmico com a JetBrains, crie sua conta aqui.
+
+O IDEA Ultimate(https://www.jetbrains.com/idea/download/?section=windows) possui suporte para PhP, Python e Java (não aconselho usar na disciplina Java, arque com as consequências).
+
+Instalem o  git(https://git-scm.com/download) (No windows , tenha CERTEZA que esta opção(https://i.stack.imgur.com/hyVA2.png) esteja marcada durante a instalação).
+Interface para windows sugiro TortoiseGit(https://tortoisegit.org/download/), para linux GitCola(https://git-cola.github.io/downloads.html).  Para execução  dos  programas usaremos um container em  docker. Consulte a instalação do docker para Windows(https://docs.docker.com/docker-for-windows/wsl/#install) e Linux(https://docs.docker.com/engine/install/#server).  8gb no mínimo de RAM, caso contrário seu PC irá se transformar em uma carroça. Se não houver SSD, ele já é

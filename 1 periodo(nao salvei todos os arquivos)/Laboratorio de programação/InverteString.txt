@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <string.h>
+
+int main ()
+{
+    char string[100] = "Alexandre";
+    char stringInvertida[100];
+    int tamanhoString = 0;
+
+    printf ("Digite o texto para inverter: ");
+    gets (string);
+    printf ("\n\n Seu Texto original: %s",string);
+
+    tamanhoString = strlen(string)-1; //-1 para não pegar o '\0'
+    //Imagine a string "ovo"
+    //o  v  o  '\0'
+    //0  1  2   3
+
+    printf("\n\n\tTamanho do texto:%d\n", tamanhoString);
+    int i = tamanhoString;
+    do{
+        stringInvertida[tamanhoString-i] = string[i];
+        i--;
+    }while(i>=0);
+    stringInvertida[tamanhoString+1] = '\0';
+
+    printf ("\n\n Seu Texto INVERTIDO: %s",stringInvertida);
+
+
+  return(0);
+}

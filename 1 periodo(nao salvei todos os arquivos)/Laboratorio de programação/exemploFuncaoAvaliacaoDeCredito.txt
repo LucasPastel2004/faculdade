@@ -1,0 +1,70 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// retorna 1 para sim
+// retorna 2 para não
+int avaliacaoDeCredito(int casaPropria, int estadoCivil, float rendimento){
+    int retorno = 0;
+
+    if(casaPropria == 1)
+    {
+        //printf("\n\nMau Pagador: Nao!");
+        retorno = 2;
+    } else
+    {
+        if(casaPropria == 0)
+        {
+            //printf("\nEstado civil \n\t[0] Casado \n\t[1] Divorciado \n\t[2] Solteiro: ");
+            //scanf("%d", &estadoCivil);
+
+            if(estadoCivil == 0)
+            {
+                //printf("\n\nMau Pagador: Nao!");
+                retorno = 2;
+            } else
+            {
+                if(estadoCivil == 1 || estadoCivil == 2)
+                {
+                    //printf("\nRendimento: ");
+                    //scanf("%f", &rendimento);
+
+                    if(rendimento <= 80000)
+                    {
+                        //printf("\n\nMau Pagador: Nao!");
+                        retorno = 2;
+                    } else
+                    {
+                        //printf("\n\nMau Pagador: Sim!");
+                        retorno = 1;
+                    }
+                }
+            }
+        }
+    }
+    return retorno;
+
+}
+
+int main()
+{
+    int casaPropria, estadoCivil;
+    float rendimento;
+
+
+    printf("Possui casa propria? \n\t[0] Nao \n\t[1] Sim: ");
+    scanf("%d", &casaPropria);
+    printf("\nEstado civil \n\t[0] Casado \n\t[1] Divorciado \n\t[2] Solteiro: ");
+    scanf("%d", &estadoCivil);
+    printf("\nRendimento: ");
+    scanf("%f", &rendimento);
+
+    // avaliacaoDeCredito retorna 1 para sim
+    // avaliacaoDeCredito retorna 2 para não
+    if (avaliacaoDeCredito(casaPropria, estadoCivil, rendimento) == 1)
+        printf("Sim");
+    else
+        printf("Nao");
+
+
+    return 0;
+}

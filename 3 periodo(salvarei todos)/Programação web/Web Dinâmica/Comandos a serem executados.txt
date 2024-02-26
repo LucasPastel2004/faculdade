@@ -1,0 +1,9 @@
+# executar dentro de python/nginx
+
+docker build -t local/my-custom-nginx .
+
+# executar dentro de python
+
+docker build -t local/python-app .
+
+docker compose up -d

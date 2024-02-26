@@ -1,0 +1,11 @@
+Modo de entrega: Link para postagem estará disponivel neste documento de texto no dia 18/05
+Fecha dia 
+Data prova 01:20/05/2023 - 8:00 - 12:00h
+-- Peso 1.
+-Conteúdo: Lista 01, Lista 02 e Lista 03
+
+Data trabalho 01:19/05/2023
+--Peso 0.5
+--Conteúdo lista 01, lista 02 e lista 03 implementadas em C.
+-- Entregar um arquivo .txt  com todos os exercicios de todas as listas. Um único arquivo.
+-- Use comentários para separar as lista e exercicios.

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1602252736 source:c:\users\alexandre\dropbox\ifg\disciplinas\bacharelado em ciencia da computacao\laboratorio de programacao\projetos code blocks\duvidasvideo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+

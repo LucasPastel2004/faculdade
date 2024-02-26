@@ -1,0 +1,5 @@
+Faça um programa em C que faça:
+Leia a matricula e notas de uma turma com n alunos.
+Caso a nota seja -99 encerre o programa e exiba na tela a média de notas da turma.
+Acrescente a informação da maior nota da turma e a menor nota da turma.
+Use While.

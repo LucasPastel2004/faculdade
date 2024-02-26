@@ -1,0 +1,7 @@
+1* The NGINX Handbook - A Beginner’s Cheat Sheet to Learning NGINX
+https://www.marsdevs.com/blogs/the-nginx-handbook-a-beginners-cheat-sheet-to-learning-nginx
+2* WSGI: The Server-Application Interface for Python
+https://www.toptal.com/python/pythons-wsgi-server-application-interface
+3* PHP Superglobals Manual
+https://www.php.net/manual/en/language.variables.superglobals.php
+

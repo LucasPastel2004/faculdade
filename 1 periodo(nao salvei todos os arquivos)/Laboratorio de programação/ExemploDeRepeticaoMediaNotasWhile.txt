@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float nota = 0;
+    float media = 0;
+    int contador = 0;
+    int matricula = 0;
+
+
+    printf("Calculo de media das notas!\n");
+    while(nota !=-99){
+        printf("Digite a matricula: ");
+        scanf("%d", &matricula);
+
+        printf("Digite a nota da matricula %d : ", matricula);
+        scanf("%f", &nota);
+
+        if(nota != -99){
+            media = media + nota;
+            contador = contador + 1;
+        }
+    }
+    printf("\n Variavel antes da divisao Media %f", media);
+    printf("\n Variavel nota %f", nota);
+    printf("\nQuantidade de alunos na turma: %d", contador);
+    media = media / contador;
+    printf("\n\t\t\t\t\A media foi: %f", media);
+    return 0;
+}

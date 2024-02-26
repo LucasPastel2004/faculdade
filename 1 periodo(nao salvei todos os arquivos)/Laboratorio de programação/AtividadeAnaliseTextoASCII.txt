@@ -1,0 +1,10 @@
+Montar um programa em C que dado um texto como entrada, texto somente composto por caracteres da tabela ASCII, retorne as quantidades de cada caractere.
+Exemplo: isso e um texto
+i: 1
+s: 2
+o: 2
+e: 2
+u: 1
+m: 1
+t: 2
+x: 1

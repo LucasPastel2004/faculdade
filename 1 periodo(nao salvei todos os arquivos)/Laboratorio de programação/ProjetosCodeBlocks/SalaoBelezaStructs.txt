@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct atividades{
+    char descricao[10];
+    int quantidade;
+    float valor;
+};
+
+struct funcionario{
+    int idFuncionario;
+    struct atividades atividade;
+    char nome[50];
+};
+
+int main()
+{
+/*    struct funcionario func01;
+
+    printf("Digite o nome do funcionario: ");
+    gets(func01.nome);
+    fflush(stdin);
+
+    printf("Digite o id do funcionario: ");
+    scanf("%d", &func01.idFuncionario);
+    fflush(stdin);
+
+    printf("Digite o servico prestado: ");
+    gets(func01.atividade.descricao);
+    fflush(stdin);
+
+    printf("Digite a quantidade de %s feitos no dia: ", func01.atividade.descricao);
+    scanf("%d", &func01.atividade.quantidade);
+    fflush(stdin);
+
+    printf("Digite o valor de cada %s feitos no dia: ", func01.atividade.descricao);
+    scanf("%f", &func01.atividade.valor);
+    fflush(stdin);
+
+    printf("\t\t\t ---- Relatorio -----");
+
+    printf("\nID: %d Nome: %s\n   Atividade Descricao: %s\n   Atividade quantidade: %d\n  Atividade Valor: %f",
+           func01.idFuncionario, func01.nome, func01.atividade.descricao, func01.atividade.quantidade, func01.atividade.valor);
+*/
+
+   //Usando vetor de funcionarios
+
+
+   struct funcionario func01[5];
+
+   for(int i = 0; i < 3; i++){
+    //ler todos os dados.
+    printf("Digite o nome do funcionario: ");
+    gets(func01[i].nome);
+    fflush(stdin);
+
+    printf("Digite o id do funcionario: ");
+    scanf("%d", &func01[i].idFuncionario);
+    fflush(stdin);
+
+    printf("Digite o servico prestado: ");
+    gets(func01[i].atividade.descricao);
+    fflush(stdin);
+
+    printf("Digite a quantidade de %s feitos no dia: ", func01[i].atividade.descricao);
+    scanf("%d", &func01[i].atividade.quantidade);
+    fflush(stdin);
+
+    printf("Digite o valor de cada %s feitos no dia: ", func01[i].atividade.descricao);
+    scanf("%f", &func01[i].atividade.valor);
+    fflush(stdin);
+
+   }
+
+   //IMPRESSAO DO RELATORIO
+   for (int i = 0; i < 3; i++)
+    printf("\nID: %d Nome: %s\n   Atividade Descricao: %s\n   Atividade quantidade: %d\n  Atividade Valor: %f",
+           func01[i].idFuncionario, func01[i].nome, func01[i].atividade.descricao, func01[i].atividade.quantidade, func01[i].atividade.valor);
+
+
+    return 0;
+}

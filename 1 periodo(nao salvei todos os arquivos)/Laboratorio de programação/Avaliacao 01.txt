@@ -1,0 +1,36 @@
+https://forms.gle/iFBKiLLhNq7Wh7if9
+
+
+Data limite: 28/04/2023 até 12:30
+Faça o que se pede abaixo:
+
+    Vamos construir um CALCULATOR, que deverá realizar as operações descritas no exemplo de tela utilizando funções.
+    O CALCULATOR deverá obter do usuário dois números do tipo inteiro;
+    As entradas e saídas devem atender a tela descrita abaixo
+    Cada operação matemática deverá ser realizada por sua respectiva função
+    As funções não podem imprimir na tela. Somente a função Main que imprime.
+
+                                                              Bem Vindo ao CALCULATOR!!
+
+Digite o primeiro número para realizar as operações: 2
+Digite o segundo número para realizar as operações: 2
+
+Calculando.....
+
+A soma: 2 + 2 = 4
+A subtração: 2 - 2 = 0
+A multiplicação: 2 x 2 = 4
+A divisão: 2 /2 = 1
+O primeiro número ao quadrado: 2 ^ 2 = 4
+O segundo número ao quadrado: 2 ^ 2 = 4
+O primeiro número ao cubo: 2 ^ 3 = 8
+O segundo número ao cubo: 2 ^ 3 = 8
+A raiz quadrada do primeiro número: raiz(2) = 1,41
+A raiz quadrada do segundo número: raiz(2) = 1,41
+
+                                                       Obrigado por usar o CALCULATOR.
+
+
+Para estudar sobre a função de sqrt() da linguagem C visite:
+https://www.programiz.com/c-programming/library-function/math.h/sqrt
+

@@ -1,0 +1,5 @@
+docker pull nginx
+
+docker build -t local/my-custom-nginx .
+
+docker compose up -d

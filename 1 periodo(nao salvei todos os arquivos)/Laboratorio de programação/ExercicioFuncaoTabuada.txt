@@ -1,0 +1,7 @@
+/*Fazer a mudança do código da tabuada para:
+criar uma função que retorne a tabuada de um número(produto)
+a função não deve imprimir na tela
+quem imprime na tela é a funçã Main()main
+A função Main chamará a função o número de vezes necessário
+para imprimir a tabela da tabuada.
+*/

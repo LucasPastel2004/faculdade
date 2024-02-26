@@ -1,0 +1,7 @@
+Faça um programa utilizando a linguagem C permita jogar o jogo da forca.
+O programador irá definir uma string constante que deverá ser adivinhada pelo usuário (jogador).
+O jogador digita um caracter por vez e o programa diz se acertou ou não o caracter.
+O jogador perde, quando aparecer para ele, a cabeça, o tronco, o braço esquerdo, o braço direito, a perna esquerda e a perna direita.
+Dicas: variáveis do tipo char; array de char; estruturas de repetição, estruturas condicionais. Se estiver usando
+os SO windows uma chamada a função system, passando como parâmetro um comando do SO poderá executa-lo. Ex.
+system("cls") vai limpar a tela do console.

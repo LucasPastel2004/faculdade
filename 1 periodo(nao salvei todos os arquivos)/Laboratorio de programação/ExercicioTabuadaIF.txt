@@ -1,0 +1,5 @@
+Reformular o exercicio da tabuada para:
+- perguntar ao usuário qual a tabuada que ele deseja ver o resultado
+- utilizar a estrutura de controle IF para selecionar a função que calcula a tabuada escolhida.
+- utilizar funções, uma para cada tabuada.
+- lembre que uma boa função não imprime na tela. Somente retorna o valor para uso no Main.
