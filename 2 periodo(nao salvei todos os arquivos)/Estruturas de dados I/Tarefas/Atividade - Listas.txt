@@ -1,0 +1,11 @@
+5.9 EXERCÍCIOS
+
+1)Explique o que é a alocação sequencial de memória para um conjunto de elementos.
+
+2)Descreva a diferença entre alocação sequencial e alocação encadeada.
+
+3)Enumere as vantagens e desvantagens de se utilizar alocação encadeada para um conjunto de elementos.
+
+4)Descreva a diferença entre alocação estática e alocação dinâmica.
+
+5)Escreva uma função que receba duas listas e retorne uma terceira contendo as duas primeiras concatenadas. Faça a função para a lista sequencial estática.

@@ -1,0 +1,1 @@
+Fazer um diagrama de sequência usando como base um caso de uso do Projeto Integrador

@@ -1,0 +1,1 @@
+Elabore o jogo “Número Mágico” que “adivinha” o número que o usuário pensa. O usuário deve pensar em um número entre 0 e 10.000. O jogo deve utilizar a busca binária para interagir com o jogador e descobrir o número. Analise a complexidade assintótica (big-O), do código em função da quantidade de interações com o usuário.

@@ -1,0 +1,22 @@
+1) Escreva uma função que receba um inteiro val e um vetor V[0..n-1] de inteiros em ordem crescente e insira val no vetor de modo a manter a ordem crescente. Assuma que o vetor de entrada tem uma posição a mais.
+
+int main(){
+
+int val=2;
+
+int V[5]={1, 3, 4, 5};
+
+insere(V, val, 5);
+
+}
+
+2) Em grupos de até três alunos, escreva duas funções que ordenam, pela matrícula, a lista encadeada disponibilizada em http://www.facom.ufu.br/~backes/wordpress/ListaDinamicaEncadeada.zip . 
+
+    A primeira função implementa o InsertionSort para ordenação com a função abaixo:
+    int insertion_sort(Lista* li)
+
+    A segunda função implementa o SelectionSort para ordenação com a função abaixo:
+    int selection_sort(Lista* li)
+
+Observe que devem ser feitas manipulações dos ponteiros para os próximos elementos na própria lista de entrada. Avalie, de forma empírica, o tempo de execução no melhor e pior caso de ambas implementações com 1000 elementos distintos.
+

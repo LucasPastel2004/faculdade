@@ -1,0 +1,2 @@
+    Preencher os requisitos funcionais e estórias de usuário do sistema do projeto integrador
+    Seguir o modelo do documento de levantamento de requisitos

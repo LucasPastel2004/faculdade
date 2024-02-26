@@ -1,0 +1,13 @@
+Data: 05 Dezembro
+Apresentação: 15 Minutos por grupo
+
+Pontos de avaliação MyFirstSoftware
+Uso de MVC
+Uso de Herança vs Interface
+Exemplo de Polimorfismo
+Tratamento de Exceção.
+Documentação
+
+Elian Magno Antunes Andrade
+
+

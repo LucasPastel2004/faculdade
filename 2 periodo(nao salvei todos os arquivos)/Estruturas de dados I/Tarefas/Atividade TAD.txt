@@ -1,0 +1,7 @@
+    Para o último exemplo da aula responda: 
+
+    Na prática, há algum problema em utilizar a implementação de lista de pontos anterior se o usuário precisar de tratar múltiplas listas de pontos? Caso haja, o que precisaríamos fazer aprimorar tal implementação?
+
+    Como implementar a função abaixo?
+
+        void pto_remove(float posicao_ponto)

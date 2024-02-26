@@ -1,0 +1,5 @@
+Trabalho em dupla
+
+Entrevistar alguém que seja um dono de um sistema (de preferência) ou um usuário avançado de um sistema
+
+    Descrever como o sistema funciona em forma de requisitos funcionais e estórias de usuário

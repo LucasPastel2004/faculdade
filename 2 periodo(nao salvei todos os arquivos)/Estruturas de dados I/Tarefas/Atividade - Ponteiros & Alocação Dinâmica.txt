@@ -1,0 +1,17 @@
+Em duplas ou individualmente, resolva as seguintes atividades abaixo (todos deverão postar as respostas no moodle):
+
+1) Implemente um código em C capaz de alocar com malloc um vetor de 4 números do tipo inteiro.  Depois, o programa deve solicitar ao usuário a entrada dos 4 números no espaço alocado. Por fim, o programa deve mostrar os 4 números e liberar a memória alocada.
+
+2) Implemente um código em C que  inicialmente recebe um inteiro (com scanf) que será usado como tamanho de uma string. Depois, o código deve alocar dinamicamente uma string com o tamanho definido, e em seguida, o conteúdo dessa string deve ser preenchido pelo usuário (também com scanf). O programa deve imprimir o conteúdo da string sem seus caracteres numéricos.
+
+3) Implemente um código em C que declare uma struct para o cadastro de trabalhadores de uma empresa. No código:
+
+a) Deverão ser armazenados, para cada trabalhador: cpf, nome e ano de nascimento. 
+
+b) Primeiramente, o usuário deverá inserir o número de trabalhadores que serão armazenados
+
+c) O código deverá alocar dinamicamente a quantidade necessária de memória para armazenar os registros dos trabalhadores.
+
+d) O código deverá solicitar a inserção das informações dos trabalhadores
+
+e) Por fim, deverá ser impressa na tela os dados armazenados e deverá ser feita a liberação da memória.

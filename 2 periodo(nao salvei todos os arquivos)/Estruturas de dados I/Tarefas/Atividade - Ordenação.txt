@@ -1,0 +1,14 @@
+Faça uma análise empírica dos algoritmos mergesort, quicksort, selectionsort e countsort
+
+Para a análise empírica: 
+
+    Gere cinco vetores de tamanho 10000 com número inteiros (de 0 a 65535)  aleatórios utilizando a função rand()
+
+    Execute cada um dos algoritmos (ex. mergesort) utilizando cada vetor gerado no passo (1). 
+
+        Meça o tempo de cada uma das 5 execuções para cada algoritmo de ordenação
+
+        Meça o número de operações de comparação feitas por cada algoritmo.
+
+    Compute o tempo médio das 5 execuções para cada algoritmo e apresente os resultados. Explique o porquê dos resultados obtidos.
+

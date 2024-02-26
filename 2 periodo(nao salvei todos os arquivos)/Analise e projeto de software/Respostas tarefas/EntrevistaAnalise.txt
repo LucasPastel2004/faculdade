@@ -1,0 +1,70 @@
+Entrevistado: Carlos Curcino Daniel(Membro da Code Tower)
+Alunos: Matheus de sá, Lucas henrique campos carvalho. 
+
+Estorias de usuario (User History):s
+
+	Sistema de turismo, montar um ecossistema,
+Nesse sistema vai possuir cadastro de usuários, contratar hospedagem. Porém ele não quer um sistema somente de viagem, ele quer criar um blog, onde vai ter dicas de viajens, agas de voluntários, informações de cidades e contatação de excursão.
+
+	No caso, o sistema no momento não possui um carrinho, onde fica registrado as viagens que deseja, mas estão correndo atras de fechar com a empresa.
+Possui uma área de adimistrador, onde o cliente pode adicionar cidades e informações dessa cidade. O usuário deve criar uma conta no site para curtir, comentar e registrar a viagem. Para poder adicionar cidades tem que ter uma conta administrativa. 
+O dono tem uma conta de super usuário que tem como objetivo poder adicionar mais contas com o cargo de trabalhador da empresa que pode adicionar cidades e fazer mais funcionalidades.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos Funcionais:
+
+1* Cadastro de Usuários:
+
+	EX: Os usuários devem ser capazes de criar contas no sistema.
+	
+2* Blog:
+
+	EX: O sistema deve permitir a publicação de postagens no blog.
+
+3* Cadastro de Cidades:
+
+	Ex: Os administradores devem ter a capacidade de adicionar informações sobre cidades, como atrações, hotéis e eventos.
+
+4* Área de Administrador:
+
+	EX: Os administradores devem ter acesso a uma área de administração para gerenciar postagens, cidades e outras atividades.
+
+5* Super Usuário:
+
+	EX: O super usuário deve ter a capacidade de adicionar novas contas de trabalhadores da empresa.
+
+6* Contratação de Hospedagem:
+
+	EX: Os usuários devem poder buscar e contratar hospedagem em diferentes cidades.
+
+7* Excursões:
+
+	EX: Os usuários devem ter a opção de explorar excursões disponíveis.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos Não Funcionais:
+
+Segurança:
+
+	EX: As senhas dos usuários devem ser armazenadas de maneira segura usando técnicas de hash.
+
+Desempenho:
+
+	EX: O sistema deve ser capaz de lidar com um grande número de usuários simultâneos.
+
+Usabilidade:
+
+	EX: A interface do usuário deve ser intuitiva e fácil de usar, tanto para usuários quanto para administradores.
+
+Escalabilidade:
+
+	EX: O sistema deve ser projetado para ser escalável, permitindo futuras expansões e adições de recursos.
+Manutenção:
+
+	EX: O código deve ser bem documentado para facilitar a manutenção contínua.
+
+Integração:
+
+	EX: O sistema deve ser projetado para facilitar a futura integração de um carrinho de compras, caso necessário.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

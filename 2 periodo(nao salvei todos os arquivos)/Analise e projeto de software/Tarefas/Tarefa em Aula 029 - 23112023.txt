@@ -1,0 +1,1 @@
+Fazer um Caso de Uso expandido nos moldes do exemplo da página 69 para descrever a principal interação dos atores com seu sistema do projeto integrador
