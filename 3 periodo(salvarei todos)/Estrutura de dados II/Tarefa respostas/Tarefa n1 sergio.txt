@@ -1,0 +1,64 @@
+1)Considerando os conteúdos de ED1, atribua uma nota (de 0 a 10) sobre o seu conhecimento de cada tópico abaixo e cite, e justifique com base nos conceitos-chave que você se lembra de: 
+
+	a)Ponteiros e alocação dinâmica
+		nota 8
+		me lembro bem sobre como cria e manipula os ponteiros, sobre a alocação dinamica sei alocar usando o malloc, voltando a ponteiros, ponteiro de ponteiro eu nao sei direito. 
+		
+	b)Listas estáticas/encadeadas/duplamente encadeadas.
+		nota 6 
+		nao me lembro bem como fazer essas coisas, tenho algumas lembrancas de como fazer uma coisa ou outra.
+
+	c)Algoritmos de ordenação (selection/quick/merge/lineares).
+		nota 3 
+		esse de fato nao sei quase nada, me esqueci de como fazer esses metodos de ordenação.
+		
+	d)Análise assintótica e complexidade.
+		nota 8
+		esse aprendi bem, unica dificuldade é calcular as funções de custo, na complexidade estou bem. 
+		
+2)O que são tabelas Hash e como elas se relacionam com os conceitos de listas e vetores? Quais as vantagens e desvantagens das tabelas Hash em relação a listas e vetores?
+
+  Tabelas hash são estruturas de dados que mapeiam chaves para valores. 
+    Elas funcionam através de uma função hash que transforma a chave em um índice da tabela.
+    
+  Vantagens das tabelas hash:
+
+        Acesso rápido aos valores.
+        Eficiente para operações de busca, inserção e remoção.
+        Adaptável a diferentes tamanhos de conjuntos de dados.
+
+    Desvantagens das tabelas hash:
+
+        Possibilidade de colisões, onde duas chaves diferentes são mapeadas para o mesmo índice.
+        Consumo de memória pode ser maior do que outras estruturas.
+        Não é adequado para casos onde a ordem dos elementos é importante.
+
+ 
+
+3)Utilizando a noção de Hash, preencha os comentários do código disponibilizado em scanuto.com/hash1.c para 5 alunos cujas matrículas se iniciam em 5538 e terminam em 5542. Não crie nenhum vetor ou estrutura adicional para armazenar matrículas e notas.
+	#include <stdio.h>
+
+	int funcao_hash(int n){
+		return n -  5538;
+
+	}
+
+	int main(void) {
+		float hash[5];
+		for (int aluno=0;aluno<5;aluno++){
+		int matricula;
+		float nota;
+		printf("matricula:\n");scanf("%d", &matricula);
+		printf("nota:\n");scanf("%f", &nota);
+		hash[funcao_hash(matricula)] = nota;
+		}
+
+	
+	    for(int i = 0; i < 5; i++){
+
+            printf("Matricula: %d/n",i+1);
+		    printf("tirou a nota:%f",hash[i]);
+	
+	    }
+		return 0;	
+	}
