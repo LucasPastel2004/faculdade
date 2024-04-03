@@ -1,0 +1,6 @@
+Replicar o que está no último commit de Python em PhP,  adicionando  ainda estas características
+Separar o Model do Index = O Model de feedback deve estar em um arquivo separado e não mais no arquivo index. Deve também conter a função de validação. 
+A função de validação deve ser chamada ao chamar o método save (). 
+O método  Save() deve ter seu retorno testado para  verificar se a validação foi correta. 
+Também deve ser inserido a configuração do bando de dados em arquivo separado, fora do index. 
+Não é necessário habilitar o projeto para migrations.

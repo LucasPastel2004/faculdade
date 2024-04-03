@@ -1,0 +1,3 @@
+Replicar o que está feito em PhP no último commit agora em Python adicionando a seguinte funcionalidade.
+
+Deve haver  uma classe Controller , base para os demais controllers , contendo métodos para processar o redirect e 404 de forma que não haja repetição de código.

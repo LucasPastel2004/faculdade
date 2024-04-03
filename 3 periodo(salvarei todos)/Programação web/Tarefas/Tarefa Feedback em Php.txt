@@ -1,0 +1,9 @@
+O exercício consiste em replicar os passos feitos em python, agora em PhP. 
+
+O procedimento do docker  para PHP é muito similar ao python. PhP Usa o Fpm (FastCGI process Manager).  
+
+Porém um novo arquivo (php.ini) será necessário. 
+
+No arquivo php , façam como no python,  processe o caminho do environment (em php é chamado de super globals, um link de leitura complementar está no moodle).
+
+Submeta os arquivos  em uma pasta compactada. Deve acompanhar tudo necessário (docker-File docker-compose)

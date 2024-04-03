@@ -1,0 +1,1 @@
+Fazer o ORM para a tabela feedback. Como o Orator é derivado do Eloquent, vai ficar fácil, pois é literalmente a mesma cosia.

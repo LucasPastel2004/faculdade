@@ -1,0 +1,11 @@
+1) - Faça um Ataque SQL Injection que destrua a Tabela feedback.  (você pode destruir a base de dados se quiser)
+
+2) Corrijam a Implementação da consulta customizada para impedir ataques.
+
+3)Implemente um view para os dados salvos
+
+4)Insira um link na view por meio de um injection de dados. 
+
+5)corrija 
+
+

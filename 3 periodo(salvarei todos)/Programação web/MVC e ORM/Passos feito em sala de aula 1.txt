@@ -1,0 +1,22 @@
+--Destrua os containers 
+
+--Criar o volume para a base de dados
+
+docker volume create base_feedback
+
+--subir a imagem do BD e aplicação com base no arquivo docker-compose.yml 
+
+docker-compose up -d
+
+
+1. Processar o arquivo feedback pelo php 
+
+    1.1. Renomear e inserir na pasta web
+
+2. Modificar o index.php para renderizar o feedback.php
+
+    2.1 (Usar o include para inserir o arquivo)
+
+3. Validar o campo e-mail , procurando pelo @ , caso não existir , renderizar o formulário com uma mensagem de  erro
+
+   3.1 Usar o <?=   para printar os campos no formulário

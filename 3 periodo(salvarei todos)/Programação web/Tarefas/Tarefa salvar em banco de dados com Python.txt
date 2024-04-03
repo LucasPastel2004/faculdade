@@ -1,0 +1,2 @@
+Faça em Python a mesmo procedimento feito em sala  em  PhP.   
+use o pacote  psycopg2
