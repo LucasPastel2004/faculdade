@@ -1,0 +1,11 @@
+     37(B)
+    /     \
+ 11(B)    51(B)
+ /   \
+8(R)  32(R)
+      /
+    20(R)
+
+Legenda:
+B: BLACK(PRETO)
+R: RED(VERMELHO)

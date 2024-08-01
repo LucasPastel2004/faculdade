@@ -1,0 +1,1 @@
+A rotação dupla não é necessária pois, o caso 2 e o caso 3 já a está realizando implicitamente ao recolorir e fazer rotações simples  
